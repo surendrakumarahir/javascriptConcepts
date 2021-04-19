@@ -7,3 +7,4 @@ document.querySelector("#parent").addEventListener("click", function() {
 document.querySelector("#child").addEventListener("click", function() {
     console.log("child");
 }, true)
+

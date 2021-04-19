@@ -1,8 +1,7 @@
 function duplicate(arr) {
     let obj={};
     arr.forEach((item, index) => {
-       
-        if(obj[item]) {
+       if(obj[item]) {
           obj[item] = obj[item]+1;
        } else {
             obj[item] = 1;
